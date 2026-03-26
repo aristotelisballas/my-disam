@@ -139,6 +139,9 @@ class ERM_Trainer(Base_Trainer):
             self.scheduler = torch.optim.lr_scheduler.StepLR(self.optimizer, step_size=int(self.epochs*0.8), gamma=0.1)
     
             
+    def get_data_aug(self):
+        self.data_aug = None
+
     def get_metric(self):
         self.metric = Classification()
     
