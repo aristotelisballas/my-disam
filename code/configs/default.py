@@ -92,3 +92,4 @@ vlcs_path = ''
 domainNet_path = ''
 ceph_flag = False
 domainNet_ceph_path = ''
+bucket_name = ''
