@@ -41,6 +41,9 @@ def get_args():
 
     # DISAM
     parser.add_argument('--lambda_weight', help='lambda value for DISAM', type=float, default=0.1)
+
+    # MuonGGASAM
+    parser.add_argument('--gga_l_gamma', help='gamma for GGA-L noise scaling in MuonGGASAM', type=float, default=1.0)
     
     '''logging'''
     parser.add_argument('--note', help='note of experimental settings', type=str, default='fedavg')
